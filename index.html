@@ -9,18 +9,52 @@
     <link rel="stylesheet" href="style.css">
     <script src="jquery.js"></script>
     <script src="script.js"></script>
+    <script src="jquery.tabslet.min.js"></script>
 </head>
     <body>
         <h1>jQuery</h1>
         <main>
             <section class="display__one">
-                <h3>Longwword</h3>
-                <figure class="display_image">
-                    <img src="images/longsword.jpg">
-                    <figcaption>
-                        Classical European longsword.
-                    </figcaption>
-                </figure>
+                <div class="tabs">
+                    <ul class="horizontal">
+                        <li><a href="#tab-1">Longsword</a></li>
+                        <li><a href="#tab-2">Messer</a></li>
+                        <li><a href="#tab-3">Gladius</a></li>
+                        <li><a href="#tab-4">Polish Saber</a></li>
+                    </ul>
+                    <div id='tab-1'>
+                        <figure class="display_image">
+                            <img src="images/longsword.jpg" height="400">
+                            <figcaption>
+                                Classical European longsword.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div id='tab-2'>
+                        <figure class="display_image">
+                            <img src="images/messer.jpg" height="400">
+                            <figcaption>
+                                Mighty German messer.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div id='tab-3'>
+                        <figure class="display_image">
+                            <img src="images/gladius.jpeg" height="400">
+                            <figcaption>
+                                Famous Roman gladius.
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div id='tab-4'>
+                        <figure class="display_image">
+                            <img src="images/saber.jpg" height="400">
+                            <figcaption>
+                                Shiny Polish saber.
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
             </section>
         </main>
         <footer>
@@ -28,3 +62,14 @@
         </footer>
     </body>
 </html>
+
+<!--
+                <h3>Longwword</h3>
+                <figure class="display_image">
+                    <img src="images/longsword.jpg">
+                    <figcaption>
+                        Classical European longsword.
+                    </figcaption>
+                </figure>
+
+-->

@@ -21,11 +21,11 @@ $(document).ready( function () {
           top: '-=50px',
           opacity: '-=.2'
        }, 500);
-    }).dbclick( function () {
-       $(this).animate({
-           top: '0',
-           opacity: '1'
-       }, 500);
     });
 
+    //Tabbies
+
+    $('.tabs').tabslet();
+
 });
+
