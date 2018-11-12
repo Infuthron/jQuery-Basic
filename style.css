@@ -31,3 +31,7 @@ footer {
 .horizontal li a {
     text-decoration: none;
 }
+
+.active {
+    background-color: yellow !important;
+}
